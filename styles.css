@@ -3,16 +3,50 @@ html, body {
   line-height: 0;
 }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.display-block {
+  display: block;
+}
+
 .square {
   display: inline-block;
   width: 100px;
   height: 100px;
 }
 
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.purple {
+  background-color: purple;
+}
+
 .red {
   background-color: red;
 }
 
-.black {
-  background-color: #000000;
+.yellow {
+  background-color: yellow;
 }

@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>scratch page</title>
+    <title>Checkerboard generator</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./styles.css">
     <script type="text/javascript" src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
   </head>
   <body>
+    <h2>Checkerboard Generator</h2>
+    <p>Please select a checkerboard size from 1 to 10.</p>
+    <input id='checkerboard-size' type='number' min='1' max='10'>
+    <p>Please choose your colors.</p>
+    <select id='color-1'>
+      <option value=''>Color #1</option>
+      <option value='black'>Black</option>
+      <option value='blue'>Blue</option>
+      <option value='cyan'>Cyan</option>
+      <option value='green'>Green</option>
+      <option value='orange'>Orange</option>
+      <option value='red'>Red</option>
+      <option value='purple'>Purple</option>
+      <option value='yellow'>Yellow</option>
+    </select>
+    <select id='color-2'>
+      <option value=''>Color #2</option>
+      <option value='black'>Black</option>
+      <option value='blue'>Blue</option>
+      <option value='cyan'>Cyan</option>
+      <option value='green'>Green</option>
+      <option value='orange'>Orange</option>
+      <option value='red'>Red</option>
+      <option value='purple'>Purple</option>
+      <option value='yellow'>Yellow</option>
+    </select>
+    <button class='display-block'>Go</button>
+    <section id='checkerboard-space' class='display-block'></section>
     <script type='text/javascript' src='./script.js'></script>
   </body>
 </html>
