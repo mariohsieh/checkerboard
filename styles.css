@@ -13,6 +13,22 @@ input[type=number]::-webkit-outer-spin-button {
   display: block;
 }
 
+.display-inline-block {
+  display: inline-block;
+}
+
+.vertical-align {
+  vertical-align: top;
+}
+
+.margin-right-16 {
+  margin-right: 16px;
+}
+
+.margin-bottom-16 {
+  margin-bottom: 16px;
+}
+
 .square {
   display: inline-block;
   width: 100px;
@@ -49,4 +65,28 @@ input[type=number]::-webkit-outer-spin-button {
 
 .yellow {
   background-color: yellow;
+}
+
+#main-title {
+  margin: 0 0 16px;
+  padding: 16px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+#checkerboard-size {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#submit-button {
+  width: 80px;
+  height: 80px;
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+  border-radius: 100%;
 }
