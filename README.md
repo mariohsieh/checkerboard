@@ -1,2 +1,2 @@
-# test-project
-test project for general assembly
+# Checkerboard Example
+A jQuery example on making a checkerboard with two loops
